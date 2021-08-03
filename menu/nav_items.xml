@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/ic_homepage"
+        android:iconTint="@null"
+        android:title="Home" />
+    <item
+        android:id="@+id/clothesCat"
+        android:icon="@drawable/ic_clothes_hanger"
+        android:iconTint="@null"
+        android:title="Clothes">
+        <menu>
+            <item
+                android:id="@+id/Tshirts"
+                android:icon="@drawable/ic_tshirt"
+                android:iconTint="@null"
+                android:title="T-Shirts" />
+
+
+            <item
+                android:id="@+id/Blouses"
+                android:icon="@drawable/ic_blouse"
+                android:iconTint="@null"
+                android:title="Blouses" />
+            <item
+                android:id="@+id/Pantaloons"
+                android:icon="@drawable/ic_jeans"
+                android:iconTint="@null"
+                android:title="Pantaloons" />
+            <item
+                android:id="@+id/Skirts"
+                android:icon="@drawable/ic_skirt"
+                android:iconTint="@null"
+                android:title="Skirts" />
+            <item
+                android:id="@+id/Dresses"
+                android:icon="@drawable/ic_dress"
+                android:iconTint="@null"
+                android:title="Dresses" />
+        </menu>
+
+
+    </item>
+    <item
+        android:id="@+id/Accessories"
+        android:icon="@drawable/ic_diamond"
+        android:iconTint="@null"
+        android:title="Accessories">
+        <menu >
+            <item
+                android:id="@+id/Bags"
+                android:icon="@drawable/ic_bag"
+                android:iconTint="@null"
+                android:title="Bags" />
+            <item
+                android:id="@+id/Heels"
+                android:icon="@drawable/ic_heels"
+                android:iconTint="@null"
+                android:title="Heels" />
+            <item
+                android:id="@+id/Belts"
+                android:icon="@drawable/ic_belt"
+                android:iconTint="@null"
+                android:title="Belts" />
+            <item
+                android:id="@+id/SunGlasses"
+                android:icon="@drawable/ic_sunglasses"
+                android:iconTint="@null"
+                android:title="SunGlasses" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/MakeUp"
+        android:icon="@drawable/ic_makeup"
+        android:iconTint="@null"
+        android:title="Make Up">
+        <menu >
+            <item
+                android:id="@+id/LipStick"
+                android:icon="@drawable/ic_lipstick"
+                android:iconTint="@null"
+                android:title="Lip Stick" />
+            <item
+                android:id="@+id/Eyeliner"
+                android:icon="@drawable/ic_eyeliner"
+                android:iconTint="@null"
+                android:title="Eyeliner" />
+            <item
+                android:id="@+id/Foundation"
+                android:icon="@drawable/ic_cream"
+                android:iconTint="@null"
+                android:title="Foundation and Baby Cream" />
+        </menu>
+    </item>
+    <item
+        android:title="User"
+        android:id="@+id/user"
+        android:icon="@drawable/ic_girl"
+        android:iconTint="@null">
+        <menu >
+            <item
+                android:id="@+id/ShoppingCart"
+                android:icon="@drawable/ic_shopping_cart"
+                android:iconTint="@null"
+                android:title="Shopping Cart"
+                />
+            <item
+                android:id="@+id/Logout"
+                android:icon="@drawable/ic_logout"
+                android:iconTint="@null"
+                android:title="Logout"
+                />
+        </menu>
+    </item>
+</menu>
