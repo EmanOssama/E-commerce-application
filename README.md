@@ -1,0 +1,2 @@
+# E-commerce-application
+E-commerce is an android application using Java and firebase. It allows user to navigate through different categories. It allows user also to add items in his/her shopping cart with different amount or quantity. It allows user to edit items in his /her shopping cart by deleting an item or edit the quantity of certain product. It allows user to determine his location to complete the shipping process.
